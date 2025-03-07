@@ -1,7 +1,7 @@
 from flask import Flask, render_template, session, redirect
 import os
 from questions import questions
-from resultats import resultats
+from resultats import resultats 
 
 # Création de l'application
 app = Flask(__name__)
